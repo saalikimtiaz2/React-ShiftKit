@@ -1,0 +1,29 @@
+{
+  "name": "react-shiftkit",
+  "description": "ShiftKit is a dynamic UI component library for React and Next.js, offering a sleek collection of adaptive and customizable components like buttons, drawers, dialogs, inputs, tabs, cards, and more. It’s lightweight, responsive, and designed for seamless integration, empowering you to build polished, modern UIs effortlessly.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": ["enxtjs", "react","reactjs","dynamic-components"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+  },
+  "author": "Salik Imtiaz",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@typescript-eslint/eslint-plugin": "^8.13.0",
+    "@typescript-eslint/parser": "^8.13.0",
+    "@vitejs/plugin-react": "^4.3.3",
+    "eslint": "^9.14.0",
+    "eslint-plugin-react": "^7.37.2"
+  }
+}
