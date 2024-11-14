@@ -18,3 +18,18 @@ To get started, install ShiftKit via npm or yarn:
 npm install shiftkit
 # or
 yarn add shiftkit
+```
+
+## 📦 Author
+
+[Salik Imtiaz](https://www.npmjs.com/~salikimtiaz)
+
+## 📦 Links
+
+[Portfolio](https://salikdev.pro/)
+[Linkedin](https://www.linkedin.com/in/salikimtiaz/)
+[Github](https://github.com/saalikimtiaz2)
+
+## 📦 Buy me a Coffee
+
+[Buy me a Coffee](https://www.buymeacoffee.com/salikimtiazX)

@@ -6,7 +6,13 @@
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "bundler",
+    // Remove allowImportingTsExtensions since we need to emit files
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": false,  // Change to false to allow emission of files
+    "outDir": "dist"  // Add this to specify where compiled files go
   },
   "include": ["src", "index.ts"]
 }
