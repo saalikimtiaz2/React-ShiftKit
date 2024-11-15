@@ -95,3 +95,116 @@
 }
 
 
+
+
+/* Avatar Wrapper */
+.shiftkit-avatar-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+/* Avatar Image */
+.shiftkit-avatar {
+    display: block;
+    object-fit: cover;
+}
+
+/* Rounded Avatar */
+.shiftkit-rounded-full {
+    border-radius: 50%;
+}
+
+/* Avatar Sizes */
+.shiftkit-avatar-size-sm {
+    width: 3rem;
+    height: 3rem;
+}
+
+.shiftkit-avatar-size-md {
+    width: 5rem;
+    height: 5rem;
+}
+
+.shiftkit-avatar-size-lg {
+    width: 7rem;
+    height: 7rem;
+}
+
+.shiftkit-avatar-size-xl {
+    width: 9rem;
+    height: 9rem;
+}
+.shiftkit-round-sm {
+    border-radius:1rem
+}
+
+.shiftkit-round-md {
+    border-radius:1.5rem
+}
+
+.shiftkit-round-lg {
+    border-radius:2rem
+}
+
+.shiftkit-round-xl {
+    border-radius:3rem
+}
+
+/* Online Status Indicator */
+/* Online Status for Rounded Avatars */
+.shiftkit-avatar-online {
+    position: absolute;
+    bottom: -4px;
+    right: -4px;
+    width: 20%;
+    height: 20%;
+    background-color: #00ff00;
+    border: 2px solid white; /* To create a border between the image and indicator */
+    border-radius: 50%;
+}
+
+/* Online Status for Square Avatars (Size-based) */
+.shiftkit-round-avatar-online-sm {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #00ff00;
+    border: 2px solid white;
+    border-radius: 50%;
+    bottom: -1px;
+    right: -1px;
+}
+
+.shiftkit-round-avatar-online-md {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background-color: #00ff00;
+    border: 2px solid white;
+    border-radius: 50%;
+    bottom: 3px;
+    right: 3px;
+}
+
+.shiftkit-round-avatar-online-lg {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: #00ff00;
+    border: 3px solid white;
+    border-radius: 50%;
+    bottom: 7px;
+    right: 7px;
+}
+
+.shiftkit-round-avatar-online-xl {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background-color: #00ff00;
+    border: 3px solid white;
+    border-radius: 50%;
+    bottom: 10px;
+    right: 10px;
+}
+
