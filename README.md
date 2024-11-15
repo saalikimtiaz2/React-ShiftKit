@@ -28,6 +28,8 @@ import "react-shiftkit/lib/styles/global.css";
 
 ## 💻 Usage
 
+### 🔲 Button
+
 Import the Button component into your project and use it as follows:
 
 ```Bash
