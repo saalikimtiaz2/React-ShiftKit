@@ -14,5 +14,5 @@
     "noEmit": false,  // Change to false to allow emission of files
     "outDir": "dist"  // Add this to specify where compiled files go
   },
-  "include": ["src", "index.ts"]
+  "include": ["lib", "index.ts"]
 }

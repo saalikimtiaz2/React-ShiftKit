@@ -20,11 +20,10 @@ npm install react-shiftkit
 yarn add react-shiftkit
 ```
 
-
 ```bash
 import { Button, Drawer } from "react-shiftkit"
 
-import "react-shiftkit/src/styles.css";
+import "react-shiftkit/lib/styles/global.css";
 ```
 
 ## 💻 Usage
@@ -48,7 +47,7 @@ import Button from "./Button";
 | Prop Name   | Type                                                      | Default     | Description                                                                                                         |
 |-------------|-----------------------------------------------------------|-------------|---------------------------------------------------------------------------------------------------------------------|
 | `children`  | `React.ReactNode`                                         | **Required**| The content to be displayed inside the button (text, icon, etc.).                                                   |
-| `name`      | `string` \| `React.ReactNode`                             | `undefined` | Optional name for the button, can be a string or React element.                                                     |
+| `name`      | `string`                                                  | `undefined` | Optional name for the button, can be a string or React element.                                                     |
 | `block`     | `boolean`                                                 | `false`     | If true, the button will take full width of its container.                                                          |
 | `disabled`  | `boolean`                                                 | `false`     | If true, the button will be disabled and unclickable.                                                               |
 | `className` | `string`                                                  | `""`        | Additional custom class names for styling.                                                                          |
@@ -83,6 +82,10 @@ The Button component uses the following CSS classes for styling. Define these cl
 ## ✏️ Author
 
 [Salik Imtiaz](https://www.npmjs.com/~salikimtiaz)
+
+## 👥 Collaborators
+
+[Armughan Shahid](https://www.npmjs.com/~armughanshahid)
 
 ## 🔗 Links
 

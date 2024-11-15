@@ -3,6 +3,6 @@
 another module or file, making them available for import from the current module. This can be useful
 for creating a single entry point for multiple components or utilities located in different files
 within a directory. */
-export * from './src/components/index';
+export * from './lib/index';
 
 
